@@ -1,0 +1,367 @@
+html {
+  font-family: "Orbitron", sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url('./photos/709838.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.progress-bar {
+  width: 100%;
+  background-color: #ddd;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.progress {
+  background-color: #4caf50;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 20px; /* Center the text vertically */
+  color: white;
+}
+
+
+#root {
+
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 100%;
+}
+
+.header {
+  align-self: flex-start;
+  margin: 10px;
+}
+
+.header h1 {
+  color: #ffffff;
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.5);
+  font-size: 40px;
+}
+
+.login-container {
+  width: 50%;
+  height: 45%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 1);
+}
+
+.login-container input {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.login-container button {
+  background-color: #ff5722;
+  color: white;
+  padding: 8px 13px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.login-container button:hover {
+  background-color: #f4511e;
+}
+
+.register-container {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.register-container button:hover {
+  background-color: #f4511e;
+}
+
+.register-container .form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items horizontally */
+}
+
+.register-container label {
+  display: block;
+}
+
+.register-container input {
+  width: 100%;
+}
+
+.welcome-container {
+  height: 100%;
+}
+
+.search input{
+  height: 100%;
+  width: 50%;
+}
+
+
+
+.player-page {
+  background-color: white;
+}
+
+.search {
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 50%;
+  transform: translateX(-60%);
+  width: 50%;
+  z-index: 1;
+  background-color: white;
+  border: 1px solid black;
+}
+
+
+.dropdown p {
+  padding: 10px;
+  margin: 0;
+  border-top: 1px solid #ccc;
+}
+
+.endorsement {
+  height: 100px;
+}
+
+.avatar {
+  height: 100px;
+}
+
+.welcome-header {
+  color: #ffffff;
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+
+.gamemode-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.gamemode-info h1 {
+  margin: 0;
+}
+
+.roles-ranks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.roles-ranks h2 {
+  margin-right: 10px;
+}
+.rank-tier-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.rank-tier-container img{
+  height: 50px;
+  width: 70px;
+}
+.avatar-container {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  margin-right: 10px;
+}
+
+.endorsement-container {
+  margin-left: 10px;
+}
+
+.endorsement-container img {
+  height: 30px;
+  width: 30px;
+}
+
+.hero img {
+  height: 50px;
+  width: 50px;
+}
+
+.hero-average-stats{
+  border: 1px solid black;
+
+}
+
+.hero_stats {
+  border: 1px solid black;
+}
+
+.hero-total-stats {
+  border: 1px solid black;
+}
+
+
+.hero {
+  position: relative;
+}
+
+.hero-info {
+  position: absolute;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 5px;
+    width: 200px;
+    top: calc(100% - 85px);
+    left: 8%;
+}
+
+.hero-info h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.hero-info p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.progress-bar {
+  margin-top: 10px;
+}
+
+.progress {
+  background-color: #4CAF50; /* Green */
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+  height: 60%;
+    width: 50%;
+}
+
+.search button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  height: 140%;
+  min-width: 10%; /* Use min-width instead of width */
+}
+
+
+.search button:hover {
+  background-color: #45a049;
+}
+
+.welcome-message {
+  position: absolute;
+  top: 45%; /* Move the element down by 50% of its containing block's height */
+  transform: translateY(-50%); /* Adjust the element upward by 50% of its own height */
+  left: 0;
+  right: 0;
+  margin: 0 auto; /* Center the element horizontally */
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  width: 100%; /* Ensure full width */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+
+
+.profile {
+  height: 100%;
+  justify-content: center;
+}
+
+.player-personal-profile {
+  top: 870px;
+  position: relative;
+  height: 40%;
+  width: 80%;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-personal-profile button {
+  margin-left: 20px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.player-personal-profile button:hover {
+  background-color: #f4511e;
+}
+
+.personal-profile {
+  margin-top: -100px;
+  height: 60%;
+  background-color: white;
+}
